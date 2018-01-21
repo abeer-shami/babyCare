@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#FDEDEC;
+  background-color:#FCF8F5;
 }
 
 .container{
@@ -18,14 +18,15 @@ ul{
 
 /* Header **/
 header{
-  background:#F5B7B1;
-  color:#ffffff;
-  padding-top:25px;
+  min-height:80px;
+  background:url('../img/newBorn.png') no-repeat 0 -430px;
+  color:#2E86C1;
+  padding-top:35px;
   border-bottom:#2E86C1 2px solid;
 }
 
 header a{
-  color:#ffffff;
+  color:#2E86C1;
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
@@ -52,15 +53,15 @@ header nav{
 }
 
 header a:hover{
-  color:#ffffff;
+  color:#E81682;
   font-weight:bold;
 }
 
 /* reg section */
 #reg{
-  padding:8px;
-  color:#ffffff;
-  background:#F5B7B1
+  padding:5px;
+  color:#000000;
+  background:#F8FBFC;
   }
 
 #reg h1{
@@ -75,7 +76,7 @@ header a:hover{
 #reg input[type="email"]{
   padding:4px;
   height:25px;
-  width:250px;
+  width:200px;
 }
 
 .regB{
@@ -87,32 +88,33 @@ header a:hover{
   color:#ffffff;
 }
 
-#reg {
-  border-bottom:#2E86C1 1px solid;
-}
-
 /* info section */
 #info{
-  min-height:200px;
-  background:url('../img/info.jpg') no-repeat 0 -300px;
+
   text-align:center;
-  color:#2E86C1;
-  border-bottom:#2E86C1 1px solid;
+  color:#000000;
 }
 
 #info h1{
-  margin-top:50px;
+  margin-top:30px;
   font-size:28px;
+  color:#E81682;
   margin-bottom:10px;
 }
 
 #info p{
-  font-size:20px;
+  font-size:18px;
 }
 
 /* stages */
 #stages{
   margin-top:20px;
+}
+#stages h1{
+  margin-top:20px;
+  font-size:24px;
+  color:#2E86C1;
+  margin-bottom:10px;
 }
 
 #stages .stage{
@@ -122,14 +124,19 @@ header a:hover{
   padding:10px;
 }
 
+#stages h3{
+  margin-top:20px;
+  color:#2E86C1;
+  margin-bottom:10px;
+}
 #stages .stage img{
-  width:100px;
+  width:200px;
 }
 
 
 footer{
-  padding:20px;
-  margin-top:20px;
+  padding:15px;
+  margin-top:15px;
   color:#ffffff;
   background-color:#2E86C1;
   text-align: center;
