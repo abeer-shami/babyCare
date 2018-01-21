@@ -133,6 +133,29 @@ header a:hover{
   width:200px;
 }
 
+/* aside bar*/
+.sBar{
+  padding:15px;
+  background:#DE8B91;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+aside#sideBar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+article#aboutA{
+  float:left;
+  width:65%;
+}
+article#aboutA p{
+  font-size:18px;
+
+}
 footer{
   padding:15px;
   margin-top:15px;
